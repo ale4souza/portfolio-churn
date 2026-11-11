@@ -1,0 +1,14 @@
+contrato,internet,pagamento,clientes,clientes_churn,taxa_churn_pct
+Month-to-month,Fiber optic,Cheque eletrônico,1307,789,60.37
+Month-to-month,Fiber optic,Outras formas,821,373,45.43
+Month-to-month,DSL,Cheque eletrônico,474,192,40.51
+Month-to-month,DSL,Outras formas,749,202,26.97
+One year,Fiber optic,Cheque eletrônico,196,51,26.02
+Month-to-month,No,Outras formas,455,86,18.9
+One year,Fiber optic,Outras formas,343,53,15.45
+One year,DSL,Cheque eletrônico,116,11,9.48
+One year,DSL,Outras formas,454,42,9.25
+Two year,Fiber optic,Outras formas,337,22,6.53
+One year,No,Outras formas,329,7,2.13
+Two year,DSL,Outras formas,570,8,1.4
+Two year,No,Outras formas,620,5,0.81

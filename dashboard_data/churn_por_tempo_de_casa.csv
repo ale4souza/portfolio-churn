@@ -1,0 +1,6 @@
+faixa_tempo_de_casa,clientes,clientes_churn,taxa_churn_pct,mensalidade_media
+1. 0 a 6 meses,1481,784,52.94,54.74
+2. 7 a 12 meses,705,253,35.89,58.95
+3. 13 a 24 meses,1024,294,28.71,61.36
+4. 25 a 48 meses,1594,325,20.39,65.93
+5. Mais de 48 meses,2239,213,9.51,73.95
