@@ -7,13 +7,15 @@
 - Hipótese: contrato longo pode refletir clientes já mais satisfeitos (associação, não causa).
 - Limite: dataset é uma foto da base, sem datas de calendário.
 
-## Churn por tempo de casa
-- Fato: churn por faixa: 0 a 6 meses 52,94%; 7 a 12 meses 35,89%; 13 a 24 meses 28,71%; 25 a 48 meses 20,39%; mais de 48 meses 9,51%.
-- Cálculo: os primeiros 6 meses têm 21,0% dos clientes e 41,9% do churn; até 12 meses, 31,0% dos clientes e 55,5% do churn.
-- Fato: a mensalidade média cresce com o tempo de casa (R$ 54,74 até R$ 73,95).
-- Interpretação: o risco se concentra no início da relação (onboarding e primeiros 90 dias).
-- Limite: viés de sobrevivência, pois quem tem mais tempo de casa é quem não saiu antes.
-- Hipótese: o efeito do preço no churn pode estar misturado com o tempo de casa.
+## Churn por tempo de casa e retenção (Kaplan-Meier)
+- Fato: o único campo com vazios é total_charges (11 clientes, todos com 0 meses de casa).
+- Fato: retenção geral: 88,5% em 6 meses; 84,3% em 12; 78,9% em 24; 70,9% em 48; 59,3% em 72.
+- Fato: retenção por contrato aos 24 meses: mensal 58,6%; 1 ano 97,8%; 2 anos 100,0%.
+- Fato: no contrato mensal a retenção chega a 50% no mês 35 e a 12,9% aos 72 meses.
+- Interpretação: o risco por mês é maior no começo; no contrato mensal a perda é contínua.
+- Hipótese: nos contratos longos, o churn se concentra no fim do contrato (sem datas de contrato, não dá para verificar).
+- Limite: a tabela por faixa de tempo de casa mostra a parcela de saídas entre clientes cujo tempo observado cai na faixa, e não a chance de um cliente novo sair. A curva Kaplan-Meier mede isso corretamente.
+- Limite: contrato é o atual; pontas da curva (60 e 72 meses) têm poucos clientes.
 
 ## Churn por tipo de internet e forma de pagamento
 - Fato: churn por internet: fibra 41,89%, DSL 18,96%, sem internet 7,40%.
