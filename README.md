@@ -2,7 +2,7 @@
 
 Análise de churn e retenção com **SQL, Python e um dashboard**, usando um dataset público de uma operadora de telecomunicações. O objetivo é responder onde os clientes saem, em que momento e **quem o time de Customer Success deveria priorizar**.
 
-**Dashboard interativo:** COLE-AQUI-O-LINK-DO-DASHBOARD
+**Dashboard interativo:** https://datastudio.google.com/reporting/2368c04d-f191-4393-84e9-e3c60f280ea5
 
 ![Dashboard, página 1](docs/dashboard_pagina1.png)
 ![Dashboard, página 2](docs/dashboard_pagina2.png)
